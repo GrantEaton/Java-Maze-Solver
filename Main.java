@@ -23,13 +23,13 @@ public class Main {
 		int row = 0;
 		
         
-		try{													//change the maze to be searched here AND BELOW
-			BufferedReader br = new BufferedReader(new FileReader("mazes/maze8.txt")) ;
+		try{						//change the maze to be searched here AND BELOW
+			BufferedReader br = new BufferedReader(new FileReader("maze8.txt")) ;
 			
 			//count up all the lines to know how many rows to do. 
 			// this was a lazy way to do it, and making a buffer reader was also
-			//extremely lazy							//change the maze to be searched here AND ABOVE
-			BufferedReader lineReader = new BufferedReader(new FileReader("mazes/maze8.txt"));
+			//extremely lazy					//change the maze to be searched here AND ABOVE
+			BufferedReader lineReader = new BufferedReader(new FileReader("maze8.txt"));
 			String line1;
 			lineReader.readLine();
 			//go through the file and get the maximum rows and columns
