@@ -24,3 +24,20 @@ Uniform cost search (UCS): this search algorthm optimizes cost, which in this ca
   
 TO SET WHICH MAZE IS SEARCHED, just look at the top of the Main file, where the file I/O is created, or control-f "maze"
 you can set the program to search mazes 1-8.
+
+The mazes look like
+5 6
+ - - - - - - 
+|. . . .|. F|
+   -       - 
+|.|. .|. .|.|
+ - -   -     
+|. . .|. . .|
+     -   -   
+|.|. .|.|.|.|
+ -     -     
+|S .|. . .|.|
+ - - - - - - 
+ 
+ where the numbers in the first line are the dimensions of the maze, "." (periods) represent open spaces, where you can occupy,
+ "|" are vertical walls, "-" are horizontal walls, and " "(empty spaces) represent an area where there is no wall.
