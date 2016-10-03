@@ -10,10 +10,10 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-	static int[] startingLocation = new int[2];
-	static int[] finishLocation = new int[2];
-	static String[][] matrix = null;
-	static int maxCols = 0;
+    static int[] startingLocation = new int[2];
+    static int[] finishLocation = new int[2];
+    static String[][] matrix = null;
+    static int maxCols = 0;
     static int maxRows = 0;
     static boolean finishSearch = false;
     static Node finishNode;
