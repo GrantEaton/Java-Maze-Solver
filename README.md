@@ -25,6 +25,7 @@ Uniform cost search (UCS): this search algorthm optimizes cost, which in this ca
 TO SET WHICH MAZE IS SEARCHED, just look at the top of the Main file, where the file I/O is created, or control-f "maze"
 you can set the program to search mazes 1-8.
 
+(please view the upcoming part in the README.MD file directly, otherwise it wont format properly)
 The mazes look like
 5 6
  - - - - - - 
